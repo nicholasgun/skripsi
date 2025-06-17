@@ -1,4 +1,4 @@
-# Core data science libraries
+# Core data science and analysis libraries
 pandas>=1.5.0
 numpy>=1.21.0
 scikit-learn>=1.1.0
@@ -6,7 +6,7 @@ matplotlib>=3.5.0
 seaborn>=0.11.0
 scipy>=1.9.0
 
-# Machine Learning and Deep Learning
+# Machine Learning and Deep Learning frameworks
 torch>=1.12.0
 transformers>=4.20.0
 sentence-transformers>=2.2.0
@@ -23,20 +23,31 @@ ipykernel>=6.15.0
 ipywidgets>=7.7.0
 notebook>=6.4.0
 
-# Data Visualization
+# Data Visualization and Plotting
 plotly>=5.10.0
 wordcloud>=1.9.0
 
-# Progress bars and utilities
+# Utilities and Progress tracking
 tqdm>=4.64.0
 requests>=2.28.0
 
-# Development and Code Quality
+# Development and Code Quality tools
 black>=22.0.0
 flake8>=5.0.0
 pytest>=7.0.0
 
-# Optional: For advanced features
-# umap-learn>=0.5.0  # For dimensionality reduction
-# datasets>=2.0.0    # Hugging Face datasets
-# wandb>=0.13.0      # Experiment tracking
+# Additional ML and analysis libraries
+datasets>=2.0.0          # Hugging Face datasets for data handling
+umap-learn>=0.5.0        # Dimensionality reduction and visualization
+wandb>=0.13.0            # Experiment tracking and monitoring (optional)
+
+# Environment and configuration
+python-dotenv>=0.19.0    # Environment variable management
+argparse                 # Command-line argument parsing (built-in, but explicit)
+
+# Advanced feature selection and model utilities
+feature-engine>=1.4.0    # Feature engineering tools
+imbalanced-learn>=0.9.0  # Handling imbalanced datasets
+
+# Additional text processing and similarity
+rapidfuzz>=2.13.0        # Fast string matching and similarity
